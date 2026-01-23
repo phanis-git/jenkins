@@ -94,17 +94,3 @@
 
 
 
-pipeline {
-    agent {
-        node {
-            label 'agent-1'
-        }
-    }
-    stages {
-        stage('Development') {
-            steps {
-                echo "This is Development stage"
-            }
-        }
-    }
-}
